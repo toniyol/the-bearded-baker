@@ -32,10 +32,10 @@
         </div>
       </div>
     </nav>
-    <div class="small-container">
+    <div class="form-container">
       <h3>1 - Contact Details</h3>
       <p>Please fill in your name and surname</p>
-      <form>
+      <form name="bakery order" method="POST" data-netlify="true">
         <div class="form-row">
           <div class="col">
             <input type="text" class="form-control" placeholder="First name">
@@ -44,11 +44,6 @@
             <input type="text" class="form-control" placeholder="Last name">
           </div>
         </div>
-      </form>
-    </div>
-
-    <div class="third-container">
-      <form>
         <div class="form-group">
           <label for="exampleFormControlInput1">Email address</label>
           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
@@ -103,8 +98,8 @@
             <option>4 - £9</option>
           </select>
         </div>
+        <button type="submit" onclick="msg()" class="btn btn-secondary btn-lg btn-block">Submit your order</button>
       </form>
-      <button type="button" onclick="msg()" class="btn btn-secondary btn-lg btn-block">Submit your order</button>
     </div>
 
 

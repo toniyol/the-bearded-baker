@@ -1,3 +1,11 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url('https://thumbs.dreamstime.com/z/food-bread-bakery-goods-wooden-background-high-resolution-food-bread-bakery-wooden-background-119166802.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
 .form-container {
 
     margin-left: 20px;
@@ -43,4 +51,7 @@ h1 {
       position: relative;
       left: -360px;
       top:-60px;
+  }
+  .form-container {
+    font-family: 'IM Fell DW Pica', serif;
   }
